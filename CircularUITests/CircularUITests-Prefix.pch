@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CircularUITests' target in the 'CircularUITests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

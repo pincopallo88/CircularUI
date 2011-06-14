@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF8CF23313A7F91600184CFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8CF23213A7F91600184CFE /* UIKit.framework */; };
+		FF8CF23513A7F91600184CFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8CF23413A7F91600184CFE /* Foundation.framework */; };
+		FF8CF23713A7F91600184CFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8CF23613A7F91600184CFE /* CoreGraphics.framework */; };
+		FF8CF23D13A7F91600184CFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF8CF23B13A7F91600184CFE /* InfoPlist.strings */; };
+		FF8CF24013A7F91600184CFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8CF23F13A7F91600184CFE /* main.m */; };
+		FF8CF24313A7F91600184CFE /* CircularUIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8CF24213A7F91600184CFE /* CircularUIAppDelegate.m */; };
+		FF8CF24613A7F91600184CFE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8CF24413A7F91600184CFE /* MainWindow.xib */; };
+		FF8CF24913A7F91600184CFE /* CircularUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8CF24813A7F91600184CFE /* CircularUIViewController.m */; };
+		FF8CF24C13A7F91600184CFE /* CircularUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8CF24A13A7F91600184CFE /* CircularUIViewController.xib */; };
+		FF8CF25313A7F91600184CFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8CF23213A7F91600184CFE /* UIKit.framework */; };
+		FF8CF25413A7F91600184CFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8CF23413A7F91600184CFE /* Foundation.framework */; };
+		FF8CF25513A7F91600184CFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8CF23613A7F91600184CFE /* CoreGraphics.framework */; };
+		FF8CF25D13A7F91600184CFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF8CF25B13A7F91600184CFE /* InfoPlist.strings */; };
+		FF8CF26013A7F91600184CFE /* CircularUITests.h in Resources */ = {isa = PBXBuildFile; fileRef = FF8CF25F13A7F91600184CFE /* CircularUITests.h */; };
+		FF8CF26213A7F91600184CFE /* CircularUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8CF26113A7F91600184CFE /* CircularUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF8CF25613A7F91600184CFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8CF22513A7F91600184CFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF8CF22D13A7F91600184CFE;
+			remoteInfo = CircularUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF8CF22E13A7F91600184CFE /* CircularUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8CF23213A7F91600184CFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF8CF23413A7F91600184CFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF8CF23613A7F91600184CFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF8CF23A13A7F91600184CFE /* CircularUI-Info.plist */ = {isa = PBXFileReference; path = "CircularUI-Info.plist"; sourceTree = "<group>"; };
+		FF8CF23C13A7F91600184CFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF8CF23E13A7F91600184CFE /* CircularUI-Prefix.pch */ = {isa = PBXFileReference; path = "CircularUI-Prefix.pch"; sourceTree = "<group>"; };
+		FF8CF23F13A7F91600184CFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF8CF24113A7F91600184CFE /* CircularUIAppDelegate.h */ = {isa = PBXFileReference; path = CircularUIAppDelegate.h; sourceTree = "<group>"; };
+		FF8CF24213A7F91600184CFE /* CircularUIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularUIAppDelegate.m; sourceTree = "<group>"; };
+		FF8CF24513A7F91600184CFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		FF8CF24713A7F91600184CFE /* CircularUIViewController.h */ = {isa = PBXFileReference; path = CircularUIViewController.h; sourceTree = "<group>"; };
+		FF8CF24813A7F91600184CFE /* CircularUIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularUIViewController.m; sourceTree = "<group>"; };
+		FF8CF24B13A7F91600184CFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CircularUIViewController.xib; sourceTree = "<group>"; };
+		FF8CF25213A7F91600184CFE /* CircularUITests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularUITests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8CF25A13A7F91600184CFE /* CircularUITests-Info.plist */ = {isa = PBXFileReference; path = "CircularUITests-Info.plist"; sourceTree = "<group>"; };
+		FF8CF25C13A7F91600184CFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF8CF25E13A7F91600184CFE /* CircularUITests-Prefix.pch */ = {isa = PBXFileReference; path = "CircularUITests-Prefix.pch"; sourceTree = "<group>"; };
+		FF8CF25F13A7F91600184CFE /* CircularUITests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularUITests.h; sourceTree = "<group>"; };
+		FF8CF26113A7F91600184CFE /* CircularUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularUITests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF8CF22B13A7F91600184CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8CF23313A7F91600184CFE /* UIKit.framework in Frameworks */,
+				FF8CF23513A7F91600184CFE /* Foundation.framework in Frameworks */,
+				FF8CF23713A7F91600184CFE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8CF24E13A7F91600184CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8CF25313A7F91600184CFE /* UIKit.framework in Frameworks */,
+				FF8CF25413A7F91600184CFE /* Foundation.framework in Frameworks */,
+				FF8CF25513A7F91600184CFE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF8CF22313A7F91600184CFE = {
+			isa = PBXGroup;
+			children = (
+				FF8CF23813A7F91600184CFE /* CircularUI */,
+				FF8CF25813A7F91600184CFE /* CircularUITests */,
+				FF8CF23113A7F91600184CFE /* Frameworks */,
+				FF8CF22F13A7F91600184CFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF8CF22F13A7F91600184CFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF8CF22E13A7F91600184CFE /* CircularUI.app */,
+				FF8CF25213A7F91600184CFE /* CircularUITests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF8CF23113A7F91600184CFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF8CF23213A7F91600184CFE /* UIKit.framework */,
+				FF8CF23413A7F91600184CFE /* Foundation.framework */,
+				FF8CF23613A7F91600184CFE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF8CF23813A7F91600184CFE /* CircularUI */ = {
+			isa = PBXGroup;
+			children = (
+				FF8CF24113A7F91600184CFE /* CircularUIAppDelegate.h */,
+				FF8CF24213A7F91600184CFE /* CircularUIAppDelegate.m */,
+				FF8CF24413A7F91600184CFE /* MainWindow.xib */,
+				FF8CF24713A7F91600184CFE /* CircularUIViewController.h */,
+				FF8CF24813A7F91600184CFE /* CircularUIViewController.m */,
+				FF8CF24A13A7F91600184CFE /* CircularUIViewController.xib */,
+				FF8CF23913A7F91600184CFE /* Supporting Files */,
+			);
+			path = CircularUI;
+			sourceTree = "<group>";
+		};
+		FF8CF23913A7F91600184CFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF8CF23A13A7F91600184CFE /* CircularUI-Info.plist */,
+				FF8CF23B13A7F91600184CFE /* InfoPlist.strings */,
+				FF8CF23E13A7F91600184CFE /* CircularUI-Prefix.pch */,
+				FF8CF23F13A7F91600184CFE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF8CF25813A7F91600184CFE /* CircularUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF8CF25F13A7F91600184CFE /* CircularUITests.h */,
+				FF8CF26113A7F91600184CFE /* CircularUITests.m */,
+				FF8CF25913A7F91600184CFE /* Supporting Files */,
+			);
+			path = CircularUITests;
+			sourceTree = "<group>";
+		};
+		FF8CF25913A7F91600184CFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF8CF25A13A7F91600184CFE /* CircularUITests-Info.plist */,
+				FF8CF25B13A7F91600184CFE /* InfoPlist.strings */,
+				FF8CF25E13A7F91600184CFE /* CircularUITests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF8CF22D13A7F91600184CFE /* CircularUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8CF26513A7F91600184CFE /* Build configuration list for PBXNativeTarget "CircularUI" */;
+			buildPhases = (
+				FF8CF22A13A7F91600184CFE /* Sources */,
+				FF8CF22B13A7F91600184CFE /* Frameworks */,
+				FF8CF22C13A7F91600184CFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircularUI;
+			productName = CircularUI;
+			productReference = FF8CF22E13A7F91600184CFE /* CircularUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF8CF25113A7F91600184CFE /* CircularUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8CF26813A7F91600184CFE /* Build configuration list for PBXNativeTarget "CircularUITests" */;
+			buildPhases = (
+				FF8CF24D13A7F91600184CFE /* Sources */,
+				FF8CF24E13A7F91600184CFE /* Frameworks */,
+				FF8CF24F13A7F91600184CFE /* Resources */,
+				FF8CF25013A7F91600184CFE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF8CF25713A7F91600184CFE /* PBXTargetDependency */,
+			);
+			name = CircularUITests;
+			productName = CircularUITests;
+			productReference = FF8CF25213A7F91600184CFE /* CircularUITests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF8CF22513A7F91600184CFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Fabrizio Lapiello";
+			};
+			buildConfigurationList = FF8CF22813A7F91600184CFE /* Build configuration list for PBXProject "CircularUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF8CF22313A7F91600184CFE;
+			productRefGroup = FF8CF22F13A7F91600184CFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF8CF22D13A7F91600184CFE /* CircularUI */,
+				FF8CF25113A7F91600184CFE /* CircularUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF8CF22C13A7F91600184CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8CF23D13A7F91600184CFE /* InfoPlist.strings in Resources */,
+				FF8CF24613A7F91600184CFE /* MainWindow.xib in Resources */,
+				FF8CF24C13A7F91600184CFE /* CircularUIViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8CF24F13A7F91600184CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8CF25D13A7F91600184CFE /* InfoPlist.strings in Resources */,
+				FF8CF26013A7F91600184CFE /* CircularUITests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FF8CF25013A7F91600184CFE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF8CF22A13A7F91600184CFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8CF24013A7F91600184CFE /* main.m in Sources */,
+				FF8CF24313A7F91600184CFE /* CircularUIAppDelegate.m in Sources */,
+				FF8CF24913A7F91600184CFE /* CircularUIViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8CF24D13A7F91600184CFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8CF26213A7F91600184CFE /* CircularUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF8CF25713A7F91600184CFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF8CF22D13A7F91600184CFE /* CircularUI */;
+			targetProxy = FF8CF25613A7F91600184CFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF8CF23B13A7F91600184CFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8CF23C13A7F91600184CFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF8CF24413A7F91600184CFE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8CF24513A7F91600184CFE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		FF8CF24A13A7F91600184CFE /* CircularUIViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8CF24B13A7F91600184CFE /* en */,
+			);
+			name = CircularUIViewController.xib;
+			sourceTree = "<group>";
+		};
+		FF8CF25B13A7F91600184CFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8CF25C13A7F91600184CFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF8CF26313A7F91600184CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FF8CF26413A7F91600184CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		FF8CF26613A7F91600184CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircularUI/CircularUI-Prefix.pch";
+				INFOPLIST_FILE = "CircularUI/CircularUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF8CF26713A7F91600184CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircularUI/CircularUI-Prefix.pch";
+				INFOPLIST_FILE = "CircularUI/CircularUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FF8CF26913A7F91600184CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CircularUI.app/CircularUI";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircularUITests/CircularUITests-Prefix.pch";
+				INFOPLIST_FILE = "CircularUITests/CircularUITests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FF8CF26A13A7F91600184CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CircularUI.app/CircularUI";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircularUITests/CircularUITests-Prefix.pch";
+				INFOPLIST_FILE = "CircularUITests/CircularUITests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF8CF22813A7F91600184CFE /* Build configuration list for PBXProject "CircularUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8CF26313A7F91600184CFE /* Debug */,
+				FF8CF26413A7F91600184CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8CF26513A7F91600184CFE /* Build configuration list for PBXNativeTarget "CircularUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8CF26613A7F91600184CFE /* Debug */,
+				FF8CF26713A7F91600184CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF8CF26813A7F91600184CFE /* Build configuration list for PBXNativeTarget "CircularUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8CF26913A7F91600184CFE /* Debug */,
+				FF8CF26A13A7F91600184CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF8CF22513A7F91600184CFE /* Project object */;
+}
